@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cg.Service.CourseService;
 import com.cg.entity.Course;
 @RestController
-@RequestMapping("/Course1")
+@RequestMapping("/Course1")    
 public class CourseController {
 	
 	@Autowired
-	private CourseService cservice;
+	     private CourseService cservice;
 	
 	@PostMapping("/add")
 	public String add(@RequestBody Course course) {
