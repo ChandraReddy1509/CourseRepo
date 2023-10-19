@@ -1,5 +1,8 @@
 package com.cg.entity;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Course {
 	private long id;
 	private String name;
@@ -26,7 +29,7 @@ public class Course {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAuthor() {
+	public String getAuthor() {  
 		return author;
 	}
 	public void setAuthor(String author) {
