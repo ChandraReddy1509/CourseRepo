@@ -8,10 +8,5 @@ public interface CourseDao {
 	public String addCourse(Course course);
 	public List <Course> getAllCourse();
 	
-	
-	
-	
-	
-		
-	}
+}
 
