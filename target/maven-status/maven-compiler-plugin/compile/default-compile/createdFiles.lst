@@ -1,0 +1,6 @@
+com\cg\Application.class
+com\cg\entity\Course.class
+com\cg\dao\CourseDao.class
+com\cg\Service\CourseService.class
+com\cg\controller\CourseController.class
+com\cg\repository\CourseRepository.class
