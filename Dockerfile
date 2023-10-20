@@ -13,7 +13,7 @@ FROM openjdk:17-jdk-slim
 
 # Refer to Maven build -> finalName
 
-ARG JAR_FILE=target/city-project.jar
+ARG JAR_FILE=target/Course-app.jar
 
  
 
